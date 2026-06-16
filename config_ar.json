@@ -849,8 +849,8 @@
 "showSearch":true,
 "categoryLayout":"column",
 "showOriginalColor":false,
-"parallaxImageRatio":1.1
-},
+"parallaxImageRatio":1.1,
+"brandItems":[{"name":"Medicube","vendor":"Medicube","image":"https://btime.om//cdn//shop//files//Medicube_logo.png"},{"name":"ANUA","vendor":"ANUA","image":"https://btime.om//cdn//shop//files//Anua_logo_png.png"},{"name":"Eucerin","vendor":"Eucerin","image":"https://btime.om//cdn//shop//files//Eucerin-logo.png"},{"name":"La Roche-Posay","vendor":"La Roche-Posay","image":"https://btime.om//cdn//shop//files//La-Roche-Posay-Logo.png"},{"name":"SKIN1004","vendor":"SKIN1004","image":"https://cdn.shopify.com//s//files//1//0619//3915//5027//files//SKIN1004-Logo.png"},{"name":"Dr.Althea","vendor":"Dr.Althea","image":"https://btime.om//cdn//shop//files//dr._althea-logo_1.png"}]},
 {
 "key":"rftKwhraqloVZ",
 "icon":"assets/icons/tabs/icon-cart2.png",

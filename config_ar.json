@@ -437,46 +437,7 @@
 "hideEmptyProductListRating":false,
 "showCartButtonWithQuantity":false
 },
-{
-"layout":"bannerImage",
-"design":"default",
-"fit":"contain",
-"isHorizontal":false,
-"height":0.095,
-"radius":18,
-"padding":0,
-"marginLeft":16,
-"marginRight":16,
-"marginTop":6,
-"marginBottom":0,
-"enableBackground":false,
-"boxShadow":{"blurRadius":14.0,"colorOpacity":0.09,"spreadRadius":0.0,"x":0.0,"y":6.0},
-"items":[
-{"image":"https://btime.om/cdn/shop/files/Medicube_logo.png","backgroundImage":"https://btime.om/cdn/shop/files/Medicube_logo.png","padding":8,"radius":18,"title":"Medicube","description":null,"vendor":"Medicube","showDescription":true,"keepDefaultTitle":false,"orderby":"date","order":"desc"},
-{"image":"https://btime.om/cdn/shop/files/Anua_logo_png.png","backgroundImage":"https://btime.om/cdn/shop/files/Anua_logo_png.png","padding":8,"radius":18,"title":"ANUA","description":null,"vendor":"ANUA","showDescription":true,"keepDefaultTitle":false,"orderby":"date","order":"desc"},
-{"image":"https://btime.om/cdn/shop/files/Eucerin-logo.png","backgroundImage":"https://btime.om/cdn/shop/files/Eucerin-logo.png","padding":8,"radius":18,"title":"Eucerin","description":null,"vendor":"Eucerin","showDescription":true,"keepDefaultTitle":false,"orderby":"date","order":"desc"}
-]
-},
-{
-"layout":"bannerImage",
-"design":"default",
-"fit":"contain",
-"isHorizontal":false,
-"height":0.095,
-"radius":18,
-"padding":0,
-"marginLeft":16,
-"marginRight":16,
-"marginTop":10,
-"marginBottom":0,
-"enableBackground":false,
-"boxShadow":{"blurRadius":14.0,"colorOpacity":0.09,"spreadRadius":0.0,"x":0.0,"y":6.0},
-"items":[
-{"image":"https://btime.om/cdn/shop/files/La-Roche-Posay-Logo.png","backgroundImage":"https://btime.om/cdn/shop/files/La-Roche-Posay-Logo.png","padding":8,"radius":18,"title":"La Roche-Posay","description":null,"vendor":"La Roche-Posay","showDescription":true,"keepDefaultTitle":false,"orderby":"date","order":"desc"},
-{"image":"https://cdn.shopify.com/s/files/1/0619/3915/5027/files/SKIN1004-Logo.png","backgroundImage":"https://cdn.shopify.com/s/files/1/0619/3915/5027/files/SKIN1004-Logo.png","padding":8,"radius":18,"title":"SKIN1004","description":null,"vendor":"SKIN1004","showDescription":true,"keepDefaultTitle":false,"orderby":"date","order":"desc"},
-{"image":"https://btime.om/cdn/shop/files/dr._althea-logo_1.png","backgroundImage":"https://btime.om/cdn/shop/files/dr._althea-logo_1.png","padding":8,"radius":18,"title":"Dr.Althea","description":null,"vendor":"Dr.Althea","showDescription":true,"keepDefaultTitle":false,"orderby":"date","order":"desc"}
-]
-},
+{"layout":"category","type":"image","wrap":true,"columns":3,"marginLeft":14,"marginRight":14,"marginTop":8,"marginBottom":6,"paddingX":8,"paddingY":8,"marginX":4,"marginY":5,"imageBoxFit":"contain","imageSpacing":8,"radius":18,"enableBorder":true,"border":0.35,"itemSize":{"height":104},"boxShadow":{"blurRadius":12,"colorOpacity":0.08,"spreadRadius":0,"x":0,"y":5},"hideTitle":true,"enableBackground":false,"items":[{"image":"https://btime.om//cdn//shop//files//Medicube_logo.png","backgroundImage":"https://btime.om//cdn//shop//files//Medicube_logo.png","title":"Medicube","name":"Medicube","vendor":"Medicube","originalColor":true,"backgroundColor":"fff9e8db","showText":false,"showDescription":false,"keepDefaultTitle":false,"productListAnimationConfig":null},{"image":"https://btime.om//cdn//shop//files//Anua_logo_png.png","backgroundImage":"https://btime.om//cdn//shop//files//Anua_logo_png.png","title":"ANUA","name":"ANUA","vendor":"ANUA","originalColor":true,"backgroundColor":"fff9e8db","showText":false,"showDescription":false,"keepDefaultTitle":false,"productListAnimationConfig":null},{"image":"https://btime.om//cdn//shop//files//Eucerin-logo.png","backgroundImage":"https://btime.om//cdn//shop//files//Eucerin-logo.png","title":"Eucerin","name":"Eucerin","vendor":"Eucerin","originalColor":true,"backgroundColor":"fff9e8db","showText":false,"showDescription":false,"keepDefaultTitle":false,"productListAnimationConfig":null},{"image":"https://btime.om//cdn//shop//files//La-Roche-Posay-Logo.png","backgroundImage":"https://btime.om//cdn//shop//files//La-Roche-Posay-Logo.png","title":"La Roche-Posay","name":"La Roche-Posay","vendor":"La Roche-Posay","originalColor":true,"backgroundColor":"fff9e8db","showText":false,"showDescription":false,"keepDefaultTitle":false,"productListAnimationConfig":null},{"image":"https://cdn.shopify.com//s//files//1//0619//3915//5027//files//SKIN1004-Logo.png","backgroundImage":"https://cdn.shopify.com//s//files//1//0619//3915//5027//files//SKIN1004-Logo.png","title":"SKIN1004","name":"SKIN1004","vendor":"SKIN1004","originalColor":true,"backgroundColor":"fff9e8db","showText":false,"showDescription":false,"keepDefaultTitle":false,"productListAnimationConfig":null},{"image":"https://btime.om//cdn//shop//files//dr._althea-logo_1.png","backgroundImage":"https://btime.om//cdn//shop//files//dr._althea-logo_1.png","title":"Dr.Althea","name":"Dr.Althea","vendor":"Dr.Althea","originalColor":true,"backgroundColor":"fff9e8db","showText":false,"showDescription":false,"keepDefaultTitle":false,"productListAnimationConfig":null}]},
 {
 "name":"اخترنا لك",
 "layout":"recommendedView",

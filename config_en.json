@@ -963,10 +963,6 @@
 },
 {
 "show":true,
-"type":"web-newArrivals"
-},
-{
-"show":true,
 "type":"screen-trackOrder"
 },
 {
@@ -1032,8 +1028,8 @@
 "subDrawerItem":{
 "button-whatsapp":{
 "id":"button-whatsapp",
-"buttonAlignment":"centerLeft",
-"buttons":[{"image":"assets/icons/brands/whatsapp.svg","width":28,"height":28,"radius":0,"marginLeft":16,"marginRight":8,"navigator":{"url_launch":"https://wa.me/96877255566"}},{"text":"WhatsApp","textColor":"FFFEDAC4","textFontSize":16,"width":150,"height":40,"radius":0,"marginLeft":0,"marginRight":0,"navigator":{"url_launch":"https://wa.me/96877255566"}}]
+"buttonAlignment":"left",
+"buttons":[{"image":"assets/icons/brands/whatsapp.svg","width":24,"height":24,"radius":0,"marginLeft":16,"marginRight":6,"navigator":{"url_launch":"https://wa.me/96877255566"}},{"text":"WhatsApp","textColor":"FFFEDAC4","textFontSize":14,"width":100,"height":40,"radius":0,"marginLeft":0,"marginRight":0,"navigator":{"url_launch":"https://wa.me/96877255566"}}]
 },
 "screen-trackOrder": {
   "id": "screen-trackOrder",
@@ -1060,17 +1056,6 @@
 "title":"Routines",
 "screen":"list-blog",
 "useTabScreen":false,
-"iconFontFamily":"CupertinoIcons"
-},
-"web-newArrivals":{
-"id":"web-newArrivals",
-"icon":"bag_fill",
-"title":"New Arrivals",
-"webUrl":"https://app.btime.om/collections/new",
-"webViewMode":false,
-"enableClose":false,
-"enableForward":false,
-"enableBackward":true,
 "iconFontFamily":"CupertinoIcons"
 },
 "screen-bcltYTyBqf":{

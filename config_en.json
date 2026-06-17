@@ -438,6 +438,7 @@
 "showCartButtonWithQuantity":false
 },
 {"layout":"category","type":"image","wrap":true,"columns":3,"marginLeft":14,"marginRight":14,"marginTop":8,"marginBottom":6,"paddingX":8,"paddingY":8,"marginX":4,"marginY":5,"imageBoxFit":"contain","imageSpacing":8,"radius":18,"enableBorder":true,"border":0.35,"itemSize":{"height":104},"boxShadow":{"blurRadius":12,"colorOpacity":0.08,"spreadRadius":0,"x":0,"y":5},"hideTitle":true,"enableBackground":false,"items":[{"image":"https://btime.om//cdn//shop//files//Medicube_logo.png","backgroundImage":"https://btime.om//cdn//shop//files//Medicube_logo.png","title":"Medicube","name":"Medicube","vendor":"Medicube","originalColor":true,"backgroundColor":"fff9e8db","showText":false,"showDescription":false,"keepDefaultTitle":false,"productListAnimationConfig":null},{"image":"https://btime.om//cdn//shop//files//Anua_logo_png.png","backgroundImage":"https://btime.om//cdn//shop//files//Anua_logo_png.png","title":"ANUA","name":"ANUA","vendor":"ANUA","originalColor":true,"backgroundColor":"fff9e8db","showText":false,"showDescription":false,"keepDefaultTitle":false,"productListAnimationConfig":null},{"image":"https://btime.om//cdn//shop//files//Eucerin-logo.png","backgroundImage":"https://btime.om//cdn//shop//files//Eucerin-logo.png","title":"Eucerin","name":"Eucerin","vendor":"Eucerin","originalColor":true,"backgroundColor":"fff9e8db","showText":false,"showDescription":false,"keepDefaultTitle":false,"productListAnimationConfig":null},{"image":"https://btime.om//cdn//shop//files//La-Roche-Posay-Logo.png","backgroundImage":"https://btime.om//cdn//shop//files//La-Roche-Posay-Logo.png","title":"La Roche-Posay","name":"La Roche-Posay","vendor":"La Roche-Posay","originalColor":true,"backgroundColor":"fff9e8db","showText":false,"showDescription":false,"keepDefaultTitle":false,"productListAnimationConfig":null},{"image":"https://cdn.shopify.com//s//files//1//0619//3915//5027//files//SKIN1004-Logo.png","backgroundImage":"https://cdn.shopify.com//s//files//1//0619//3915//5027//files//SKIN1004-Logo.png","title":"SKIN1004","name":"SKIN1004","vendor":"SKIN1004","originalColor":true,"backgroundColor":"fff9e8db","showText":false,"showDescription":false,"keepDefaultTitle":false,"productListAnimationConfig":null},{"image":"https://btime.om//cdn//shop//files//dr._althea-logo_1.png","backgroundImage":"https://btime.om//cdn//shop//files//dr._althea-logo_1.png","title":"Dr.Althea","name":"Dr.Althea","vendor":"Dr.Althea","originalColor":true,"backgroundColor":"fff9e8db","showText":false,"showDescription":false,"keepDefaultTitle":false,"productListAnimationConfig":null}]},
+{"layout":"bannerImage","design":"default","fit":"cover","height":0.22,"isSlider":false,"autoPlay":false,"showIndicator":false,"marginLeft":10,"marginRight":10,"marginTop":12,"marginBottom":10,"padding":4,"radius":16,"boxShadow":{"blurRadius":14,"colorOpacity":0.12,"spreadRadius":0,"x":0,"y":6},"items":[{"key":"brand-medicube-feature","name":"Medicube","type":"image","image":"https://btime.om/cdn/shop/files/Medicube111.jpg","vendor":"Medicube","padding":4,"radius":16,"products":[],"productLength":3,"showSubcategory":false,"bannerWithProduct":false,"defaultShowProduct":false},{"key":"brand-dr-melaxin-feature","name":"Dr. Melaxin","type":"image","image":"https://btime.om/cdn/shop/files/dr-melaxin111.jpg","vendor":"Dr. Melaxin","padding":4,"radius":16,"products":[],"productLength":3,"showSubcategory":false,"bannerWithProduct":false,"defaultShowProduct":false}]},
 {
 "name":"Picked for you",
 "layout":"recommendedView",
@@ -567,7 +568,7 @@
 "hideEmptyProductLayout":true
 },
 {
-"name":"New",
+"name":"New Arrivals",
 "rows":1,
 "limit":5,
 "order":"desc",
@@ -612,56 +613,6 @@
 "useCircularRadius":true,
 "parallaxImageRatio":1.2,
 "showShortDescription":false,
-"enableBottomAddToCart":true,
-"productListItemHeight":120,
-"cartButtonQuantitySize":40,
-"hideEmptyProductLayout":false,
-"showProductCardCategory":false,
-"hideEmptyProductListRating":false,
-"showCartButtonWithQuantity":false
-},
-{
-"name":"Just for You",
-"rows":1,
-"order":"desc",
-"layout":"largeCard",
-"onSale":false,
-"columns":3,
-"hMargin":6,
-"orderby":"date",
-"useSort":false,
-"vMargin":0,
-"hPadding":6,
-"parallax":false,
-"vPadding":2,
-"hidePrice":false,
-"hideStore":false,
-"hideTitle":false,
-"showHeart":false,
-"cardDesign":"card",
-"imageRatio":1.2,
-"isSnapping":false,
-"hideAddress":false,
-"imageBoxfit":"cover",
-"borderRadius":3,
-"enableRating":true,
-"showCartIcon":true,
-"showCategory":false,
-"showQuantity":false,
-"showCountDown":false,
-"showOnlyImage":false,
-"advancedParams":{
-},
-"cartIconRadius":9,
-"showCartButton":false,
-"showListingType":true,
-"showPhoneNumber":false,
-"showStockStatus":true,
-"backgroundRadius":10,
-"enableAutoSliding":false,
-"showCartIconColor":true,
-"useCircularRadius":true,
-"parallaxImageRatio":1.2,
 "enableBottomAddToCart":true,
 "productListItemHeight":120,
 "cartButtonQuantitySize":40,
@@ -1004,7 +955,15 @@
 },
 {
 "show":true,
+"type":"screen-routines"
+},
+{
+"show":true,
 "type":"screen-brandsWeb"
+},
+{
+"show":true,
+"type":"category-newArrivals"
 },
 {
 "show":true,
@@ -1116,6 +1075,21 @@
 "title":"Brands",
 "screen":"brands-web",
 "useTabScreen":false,
+"iconFontFamily":"CupertinoIcons"
+},
+"screen-routines":{
+"id":"screen-routines",
+"icon":"news_solid",
+"title":"Routines",
+"screen":"list-blog",
+"useTabScreen":false,
+"iconFontFamily":"CupertinoIcons"
+},
+"category-newArrivals":{
+"id":"category-newArrivals",
+"icon":"clock_solid",
+"title":"New Arrivals",
+"category":"gid://shopify/Collection/286630969427",
 "iconFontFamily":"CupertinoIcons"
 },
 "screen-bcltYTyBqf":{

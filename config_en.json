@@ -1079,7 +1079,7 @@
 },
 "screen-routines":{
 "id":"screen-routines",
-"icon":"news_solid",
+"icon":"wand_stars",
 "title":"Routines",
 "screen":"list-blog",
 "useTabScreen":false,
@@ -1089,7 +1089,7 @@
 "id":"category-newArrivals",
 "icon":"clock_solid",
 "title":"New Arrivals",
-"category":"gid://shopify/Collection/286630969427",
+"category":"286630969427",
 "iconFontFamily":"CupertinoIcons"
 },
 "screen-bcltYTyBqf":{
@@ -1111,6 +1111,7 @@
 },
 "overrideTranslation":{
 "@@locale":"en",
+"blog":"Routines",
 "myWishList":"Wishlist",
 "addToWishlist":"Add to Wishlist",
 "emptyWishlist":"Wishlist is empty",

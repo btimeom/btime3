@@ -995,7 +995,7 @@
 },
 {
 "show":true,
-"type":"web-qMVLBlTNUP"
+"type":"button-whatsapp"
 },
 {
 "show":true,
@@ -1030,33 +1030,10 @@
 },
 "colorFilter":"FFB24CB6",
 "subDrawerItem":{
-"web-qMVLBlTNUP":{
-"id":"web-12",
-"icon":"chat_bubble_2_fill",
-"title":"WhatsApp",
-"webUrl":"https://wa.me/96877255566",
-"buttons":[
-{
-"width":40,
-"height":40,
-"radius":0,
-"navigator":{
-},
-"marginLeft":5,
-"marginRight":5,
-"textFontSize":14
-}
-],
-"enableClose":false,
-"webViewMode":true,
-"bannerHeight":15,
-"useTabScreen":false,
-"enableDivider":false,
-"enableForward":false,
-"requiredLogin":false,
-"enableBackward":true,
-"iconFontFamily":"CupertinoIcons",
-"buttonAlignment":"centerLeft"
+"button-whatsapp":{
+"id":"button-whatsapp",
+"buttonAlignment":"centerLeft",
+"buttons":[{"image":"assets/icons/brands/whatsapp.svg","width":28,"height":28,"radius":0,"marginLeft":16,"marginRight":8,"navigator":{"url_launch":"https://wa.me/96877255566"}},{"text":"WhatsApp","textColor":"FFFEDAC4","textFontSize":16,"width":150,"height":40,"radius":0,"marginLeft":0,"marginRight":0,"navigator":{"url_launch":"https://wa.me/96877255566"}}]
 },
 "screen-trackOrder": {
   "id": "screen-trackOrder",
@@ -1089,8 +1066,8 @@
 "id":"web-newArrivals",
 "icon":"bag_fill",
 "title":"New Arrivals",
-"webUrl":"https://btime.om/collections/new",
-"webViewMode":true,
+"webUrl":"https://app.btime.om/collections/new",
+"webViewMode":false,
 "enableClose":false,
 "enableForward":false,
 "enableBackward":true,

@@ -991,7 +991,7 @@
 },
 {
 "show":true,
-"type":"button-whatsapp"
+"type":"web-whatsapp"
 },
 {
 "show":true,
@@ -1026,10 +1026,16 @@
 },
 "colorFilter":"FFB24CB6",
 "subDrawerItem":{
-"button-whatsapp":{
-"id":"button-whatsapp",
-"buttonAlignment":"left",
-"buttons":[{"image":"assets/icons/brands/whatsapp.svg","width":24,"height":24,"radius":0,"marginLeft":16,"marginRight":6,"navigator":{"url_launch":"https://wa.me/96877255566"}},{"text":"WhatsApp","textColor":"FFFEDAC4","textFontSize":14,"width":100,"height":40,"radius":0,"marginLeft":0,"marginRight":0,"navigator":{"url_launch":"https://wa.me/96877255566"}}]
+"web-whatsapp":{
+"id":"web-whatsapp",
+"icon":"phone_circle_fill",
+"title":"WhatsApp",
+"webUrl":"https://wa.me/96877255566",
+"webViewMode":false,
+"enableClose":false,
+"enableForward":false,
+"enableBackward":true,
+"iconFontFamily":"CupertinoIcons"
 },
 "screen-trackOrder": {
   "id": "screen-trackOrder",

@@ -923,7 +923,7 @@
 },
 {
 "show":true,
-"type":"category-newArrivals"
+"type":"web-newArrivals"
 },
 {
 "show":true,
@@ -992,8 +992,8 @@
 "subDrawerItem":{
 "web-qMVLBlTNUP":{
 "id":"web-12",
-"icon":"bubble_right_fill",
-"title":"راسلنا",
+"icon":"chat_bubble_2_fill",
+"title":"واتساب",
 "webUrl":"https://wa.me/96877255566",
 "buttons":[
 {
@@ -1045,11 +1045,15 @@
 "useTabScreen":false,
 "iconFontFamily":"CupertinoIcons"
 },
-"category-newArrivals":{
-"id":"category-newArrivals",
-"icon":"clock_solid",
+"web-newArrivals":{
+"id":"web-newArrivals",
+"icon":"bag_fill",
 "title":"وصل حديثًا",
-"category":"gid://shopify/Collection/286630969427",
+"webUrl":"https://btime.om/collections/new",
+"webViewMode":true,
+"enableClose":false,
+"enableForward":false,
+"enableBackward":true,
 "iconFontFamily":"CupertinoIcons"
 },
 "screen-bcltYTyBqf":{

@@ -3,7 +3,7 @@
 {
 "height":36,
 "layout":"header_text",
-"type":"rotate",
+"type":"fade",
 "rotate":["🚚 Free delivery on orders of OMR 25 or more","🎟️ Get a discount coupon on orders over OMR 35"],
 "font":"Cairo",
 "fontSize":13.5,

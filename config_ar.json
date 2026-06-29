@@ -3,7 +3,7 @@
 {
 "height":36,
 "layout":"header_text",
-"type":"rotate",
+"type":"fade",
 "rotate":["🚚 شحن مجاني للطلبات بقيمة 25 ر.ع فأكثر","🎟️ كوبون خصم عند التسوق بأكثر من 35 ر.ع"],
 "font":"Cairo",
 "fontSize":14,
